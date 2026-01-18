@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+:root {
+  --color-dark: #0d0d0d;
+  --color-dark2: #1a1a1a; 
+  --color-gold: #ffd700;
+  --color-gold-soft: #e5c45a;
+  --color-cream: #f4e4c8;
+}
+
+@layer utilities {
+  /* 📦 Box Shadow: Define a shadow with the accent color */
+  .shadow-cyber-glow {
+    box-shadow: 0 0 10px var(--color-accent), 0 0 20px var(--color-accent);
+  }
+}

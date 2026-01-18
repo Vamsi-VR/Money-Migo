@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+/* Main background color */
+.bg-navbar {
+  background-color: var(--color-neutral-900);
+}
+/* Main background color */
+.bg-navbarr  {
+  background-color:linear-gradient(to right, #fcd34d, #ca8a04);
+}
+
+/* Gradient background for buttons and elements */
+.gradient-gold {
+  background: linear-gradient(to right, #fcd34d, #ca8a04);
+}
+
+/* Gradient text */
+.gradient-text-gold {
+  background: linear-gradient(to right, #fcd34d, #ca8a04);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
